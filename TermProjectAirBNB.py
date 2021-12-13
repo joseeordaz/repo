@@ -9,7 +9,7 @@ This program ... (a few sentences about your program and the queries and charts)
 """
 
 import streamlit as st
-from streamlit_folium import folium_static
+#from streamlit_folium import folium_static
 import folium
 import pandas as pd
 import plotly.express as px
