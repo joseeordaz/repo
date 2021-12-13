@@ -8,14 +8,6 @@ This program ... (a few sentences about your program and the queries and charts)
 
 """
 
-import streamlit as st
-#from streamlit_folium import folium_static
-#import folium
-import pandas as pd
-import plotly.express as px
-import matplotlib.pyplot as plt
-import numpy as np
-
 def barchart(x,y):
     plt.bar(x, y, color="red")
     plt.ylabel("Price")
